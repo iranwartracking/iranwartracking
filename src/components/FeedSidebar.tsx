@@ -13,6 +13,11 @@ export function FeedSidebar() {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
+        if (!supabase) {
+            setLoading(false);
+            return;
+        }
+
         fetchEvents(activeTab);
 
         // Initial load setup realtime subscription globally
@@ -31,13 +36,14 @@ export function FeedSidebar() {
             .subscribe();
 
         return () => {
-            supabase.removeChannel(channel);
+            supabase!.removeChannel(channel);
         };
     }, [activeTab]);
 
     const fetchEvents = async (category: string) => {
+        if (!supabase) return;
         setLoading(true);
-        let query = supabase
+        let query = supabase!
             .from('events')
             .select('*')
             .order('created_at', { ascending: false })

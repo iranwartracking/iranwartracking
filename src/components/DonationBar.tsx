@@ -12,6 +12,8 @@ export function DonationBar() {
     const goal = 20;
 
     useEffect(() => {
+        if (!supabase) return;
+
         // 1. Fetch initial value
         const fetchTotal = async () => {
             const { data, error } = await supabase

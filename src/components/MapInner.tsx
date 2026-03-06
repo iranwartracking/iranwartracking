@@ -39,9 +39,11 @@ export default function MapInner() {
     const [events, setEvents] = useState<WarEvent[]>([]);
 
     useEffect(() => {
+        if (!supabase) return;
+
         const fetchEvents = async () => {
             // Just fetch the last 200 events to prevent massive lag
-            const { data, error } = await supabase
+            const { data, error } = await supabase!
                 .from('events')
                 .select('*')
                 .order('created_at', { ascending: false })
@@ -61,7 +63,7 @@ export default function MapInner() {
             .subscribe();
 
         return () => {
-            supabase.removeChannel(channel);
+            supabase!.removeChannel(channel);
         };
     }, []);
 

@@ -17,9 +17,11 @@ export function LiveTicker() {
     const [events, setEvents] = useState<WarEvent[]>([]);
 
     useEffect(() => {
+        if (!supabase) return;
+
         // 1. Fetch latest 5 events
         const fetchLatest = async () => {
-            const { data, error } = await supabase
+            const { data, error } = await supabase!
                 .from('events')
                 .select('*')
                 .order('created_at', { ascending: false })
@@ -48,7 +50,7 @@ export function LiveTicker() {
             .subscribe();
 
         return () => {
-            supabase.removeChannel(channel);
+            supabase!.removeChannel(channel);
         };
     }, []);
 
