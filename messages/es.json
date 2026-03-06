@@ -1,52 +1,76 @@
 {
-    "nav.live": "En vivo",
-    "nav.strikes": "Ataques",
-    "nav.leaders": "Líderes",
-    "nav.diplomacy": "Diplomacia",
-    "nav.threats": "Amenazas",
-    "nav.about": "Acerca de",
-    "nav.lowData": "Modo datos reducidos",
-    "ticker.label": "EN VIVO",
-    "donation.label": "Costo diario IA y servidor:",
-    "donation.goal": "$20",
-    "donation.current": "Hoy:",
-    "donation.donate": "Donar",
-    "donation.keepLive": "Ayuda a mantenerlo gratuito",
-    "map.kinetic": "Ataque",
-    "map.diplomatic": "Diplomático",
-    "map.intent": "Amenaza / Intención",
-    "map.leadership": "Liderazgo",
-    "map.verified": "Verificado",
-    "map.pending": "No verificado",
-    "map.sources": "Fuentes",
-    "map.viewRaw": "Ver fuentes originales",
-    "map.whyMatters": "Por qué importa",
-    "filter.all": "Todos los eventos",
-    "filter.kinetic": "Ataques",
-    "filter.diplomatic": "Diplomacia",
-    "filter.intent": "Amenazas",
-    "filter.leadership": "Liderazgo",
-    "filter.verified": "Solo verificados",
-    "tabs.live": "Eventos en vivo",
-    "tabs.leaders": "Líderes",
-    "tabs.threats": "Amenazas",
-    "tabs.diplomacy": "Diplomacia",
-    "severity.label": "Severidad",
-    "status.live": "EN VIVO",
-    "status.updated": "Actualizado",
-    "status.ago": "hace",
-    "status.scanning": "Escaneando fuentes...",
-    "ai.translated": "Traducido por IA",
-    "ai.generated": "Resumen IA",
-    "ai.verified": "Verificado por la fuente",
+    "nav": {
+        "live": "En vivo",
+        "strikes": "Ataques",
+        "leaders": "Líderes",
+        "diplomacy": "Diplomacia",
+        "threats": "Amenazas",
+        "about": "Acerca de",
+        "lowData": "Modo datos reducidos"
+    },
+    "ticker": {
+        "label": "EN VIVO"
+    },
+    "donation": {
+        "label": "Costo diario IA y servidor:",
+        "goal": "$20",
+        "current": "Hoy:",
+        "donate": "Donar",
+        "keepLive": "Ayuda a mantenerlo gratuito"
+    },
+    "map": {
+        "kinetic": "Ataque",
+        "diplomatic": "Diplomático",
+        "intent": "Amenaza / Intención",
+        "leadership": "Liderazgo",
+        "verified": "Verificado",
+        "pending": "No verificado",
+        "sources": "Fuentes",
+        "viewRaw": "Ver fuentes originales",
+        "whyMatters": "Por qué importa"
+    },
+    "filter": {
+        "all": "Todos los eventos",
+        "kinetic": "Ataques",
+        "diplomatic": "Diplomacia",
+        "intent": "Amenazas",
+        "leadership": "Liderazgo",
+        "verified": "Solo verificados"
+    },
+    "tabs": {
+        "live": "Eventos en vivo",
+        "leaders": "Líderes",
+        "threats": "Amenazas",
+        "diplomacy": "Diplomacia"
+    },
+    "severity": {
+        "label": "Severidad"
+    },
+    "status": {
+        "live": "EN VIVO",
+        "updated": "Actualizado",
+        "ago": "hace",
+        "scanning": "Escaneando fuentes..."
+    },
+    "ai": {
+        "translated": "Traducido por IA",
+        "generated": "Resumen IA",
+        "verified": "Verificado por la fuente"
+    },
     "disclaimer": "Información proporcionada con fines educativos y analíticos. Los resúmenes de IA pueden contener errores.",
-    "hero.title": "Guerra Irán · Inteligencia en Vivo",
-    "hero.subtitle": "Cero sesgo. Verificado por IA. Tiempo real.",
-    "about.title": "Acerca de IranWar.net",
-    "threat.level": "Nivel de amenaza",
-    "threat.monitoring": "Monitoreo",
-    "threat.elevated": "Elevado",
-    "threat.high": "Alto",
-    "threat.critical": "Crítico",
-    "threat.extreme": "Extremo"
+    "hero": {
+        "title": "Guerra Irán · Inteligencia en Vivo",
+        "subtitle": "Cero sesgo. Verificado por IA. Tiempo real."
+    },
+    "about": {
+        "title": "Acerca de IranWar.net"
+    },
+    "threat": {
+        "level": "Nivel de amenaza",
+        "monitoring": "Monitoreo",
+        "elevated": "Elevado",
+        "high": "Alto",
+        "critical": "Crítico",
+        "extreme": "Extremo"
+    }
 }

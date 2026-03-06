@@ -1,52 +1,76 @@
 {
-    "nav.live": "زنده",
-    "nav.strikes": "حملات",
-    "nav.leaders": "اظهارات رهبران",
-    "nav.diplomacy": "دیپلماسی",
-    "nav.threats": "تهدیدات",
-    "nav.about": "درباره ما",
-    "nav.lowData": "حالت کم‌مصرف",
-    "ticker.label": "زنده",
-    "donation.label": "هزینه روزانه IA و سرور:",
-    "donation.goal": "۲۰ دلار",
-    "donation.current": "امروز:",
-    "donation.donate": "کمک مالی",
-    "donation.keepLive": "کمک کنید رایگان بماند",
-    "map.kinetic": "حمله",
-    "map.diplomatic": "دیپلماتیک",
-    "map.intent": "تهدید / قصد",
-    "map.leadership": "رهبری",
-    "map.verified": "تأیید شده",
-    "map.pending": "تأیید نشده",
-    "map.sources": "منابع",
-    "map.viewRaw": "مشاهده منابع اصلی",
-    "map.whyMatters": "چرا مهم است",
-    "filter.all": "همه رویدادها",
-    "filter.kinetic": "حملات",
-    "filter.diplomatic": "دیپلماسی",
-    "filter.intent": "تهدیدات",
-    "filter.leadership": "رهبری",
-    "filter.verified": "فقط تأیید شده",
-    "tabs.live": "رویدادهای زنده",
-    "tabs.leaders": "رهبران",
-    "tabs.threats": "تهدیدات",
-    "tabs.diplomacy": "دیپلماسی",
-    "severity.label": "شدت",
-    "status.live": "زنده",
-    "status.updated": "بروزرسانی",
-    "status.ago": "پیش",
-    "status.scanning": "در حال اسکن منابع...",
-    "ai.translated": "ترجمه هوش مصنوعی",
-    "ai.generated": "خلاصه هوش مصنوعی",
-    "ai.verified": "تأیید شده توسط منبع",
+    "nav": {
+        "live": "زنده",
+        "strikes": "حملات",
+        "leaders": "اظهارات رهبران",
+        "diplomacy": "دیپلماسی",
+        "threats": "تهدیدات",
+        "about": "درباره ما",
+        "lowData": "حالت کم‌مصرف"
+    },
+    "ticker": {
+        "label": "زنده"
+    },
+    "donation": {
+        "label": "هزینه روزانه IA و سرور:",
+        "goal": "۲۰ دلار",
+        "current": "امروز:",
+        "donate": "کمک مالی",
+        "keepLive": "کمک کنید رایگان بماند"
+    },
+    "map": {
+        "kinetic": "حمله",
+        "diplomatic": "دیپلماتیک",
+        "intent": "تهدید / قصد",
+        "leadership": "رهبری",
+        "verified": "تأیید شده",
+        "pending": "تأیید نشده",
+        "sources": "منابع",
+        "viewRaw": "مشاهده منابع اصلی",
+        "whyMatters": "چرا مهم است"
+    },
+    "filter": {
+        "all": "همه رویدادها",
+        "kinetic": "حملات",
+        "diplomatic": "دیپلماسی",
+        "intent": "تهدیدات",
+        "leadership": "رهبری",
+        "verified": "فقط تأیید شده"
+    },
+    "tabs": {
+        "live": "رویدادهای زنده",
+        "leaders": "رهبران",
+        "threats": "تهدیدات",
+        "diplomacy": "دیپلماسی"
+    },
+    "severity": {
+        "label": "شدت"
+    },
+    "status": {
+        "live": "زنده",
+        "updated": "بروزرسانی",
+        "ago": "پیش",
+        "scanning": "در حال اسکن منابع..."
+    },
+    "ai": {
+        "translated": "ترجمه هوش مصنوعی",
+        "generated": "خلاصه هوش مصنوعی",
+        "verified": "تأیید شده توسط منبع"
+    },
     "disclaimer": "اطلاعات صرفاً برای اهداف آموزشی و تحلیلی ارائه می‌شود. خلاصه‌های هوش مصنوعی ممکن است خطا داشته باشند.",
-    "hero.title": "جنگ ایران · اطلاعات زنده",
-    "hero.subtitle": "بدون تعصب. تأیید شده با هوش مصنوعی. زمان واقعی.",
-    "about.title": "درباره IranWar.net",
-    "threat.level": "سطح تهدید",
-    "threat.monitoring": "پایش",
-    "threat.elevated": "بالا",
-    "threat.high": "زیاد",
-    "threat.critical": "بحرانی",
-    "threat.extreme": "شدید"
+    "hero": {
+        "title": "جنگ ایران · اطلاعات زنده",
+        "subtitle": "بدون تعصب. تأیید شده با هوش مصنوعی. زمان واقعی."
+    },
+    "about": {
+        "title": "درباره IranWar.net"
+    },
+    "threat": {
+        "level": "سطح تهدید",
+        "monitoring": "پایش",
+        "elevated": "بالا",
+        "high": "زیاد",
+        "critical": "بحرانی",
+        "extreme": "شدید"
+    }
 }

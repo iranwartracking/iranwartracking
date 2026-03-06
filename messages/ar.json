@@ -1,52 +1,76 @@
 {
-    "nav.live": "مباشر",
-    "nav.strikes": "الضربات",
-    "nav.leaders": "تصريحات القادة",
-    "nav.diplomacy": "الدبلوماسية",
-    "nav.threats": "التهديدات",
-    "nav.about": "عن الموقع",
-    "nav.lowData": "وضع البيانات المنخفضة",
-    "ticker.label": "مباشر",
-    "donation.label": "التكلفة اليومية للذكاء الاصطناعي والخادم:",
-    "donation.goal": "20 دولار",
-    "donation.current": "اليوم:",
-    "donation.donate": "تبرع",
-    "donation.keepLive": "ساعد في إبقائه مجاناً",
-    "map.kinetic": "ضربة",
-    "map.diplomatic": "دبلوماسي",
-    "map.intent": "تهديد / نية",
-    "map.leadership": "قيادة",
-    "map.verified": "موثق",
-    "map.pending": "غير موثق",
-    "map.sources": "المصادر",
-    "map.viewRaw": "عرض المصادر الأصلية",
-    "map.whyMatters": "لماذا يهم",
-    "filter.all": "جميع الأحداث",
-    "filter.kinetic": "الضربات",
-    "filter.diplomatic": "الدبلوماسية",
-    "filter.intent": "التهديدات",
-    "filter.leadership": "القيادة",
-    "filter.verified": "الموثقة فقط",
-    "tabs.live": "الأحداث المباشرة",
-    "tabs.leaders": "القادة",
-    "tabs.threats": "التهديدات",
-    "tabs.diplomacy": "الدبلوماسية",
-    "severity.label": "الشدة",
-    "status.live": "مباشر",
-    "status.updated": "محدّث",
-    "status.ago": "منذ",
-    "status.scanning": "جاري مسح المصادر...",
-    "ai.translated": "مترجم بالذكاء الاصطناعي",
-    "ai.generated": "ملخص الذكاء الاصطناعي",
-    "ai.verified": "موثق من المصدر",
+    "nav": {
+        "live": "مباشر",
+        "strikes": "الضربات",
+        "leaders": "تصريحات القادة",
+        "diplomacy": "الدبلوماسية",
+        "threats": "التهديدات",
+        "about": "عن الموقع",
+        "lowData": "وضع البيانات المنخفضة"
+    },
+    "ticker": {
+        "label": "مباشر"
+    },
+    "donation": {
+        "label": "التكلفة اليومية للذكاء الاصطناعي والخادم:",
+        "goal": "20 دولار",
+        "current": "اليوم:",
+        "donate": "تبرع",
+        "keepLive": "ساعد في إبقائه مجاناً"
+    },
+    "map": {
+        "kinetic": "ضربة",
+        "diplomatic": "دبلوماسي",
+        "intent": "تهديد / نية",
+        "leadership": "قيادة",
+        "verified": "موثق",
+        "pending": "غير موثق",
+        "sources": "المصادر",
+        "viewRaw": "عرض المصادر الأصلية",
+        "whyMatters": "لماذا يهم"
+    },
+    "filter": {
+        "all": "جميع الأحداث",
+        "kinetic": "الضربات",
+        "diplomatic": "الدبلوماسية",
+        "intent": "التهديدات",
+        "leadership": "القيادة",
+        "verified": "الموثقة فقط"
+    },
+    "tabs": {
+        "live": "الأحداث المباشرة",
+        "leaders": "القادة",
+        "threats": "التهديدات",
+        "diplomacy": "الدبلوماسية"
+    },
+    "severity": {
+        "label": "الشدة"
+    },
+    "status": {
+        "live": "مباشر",
+        "updated": "محدّث",
+        "ago": "منذ",
+        "scanning": "جاري مسح المصادر..."
+    },
+    "ai": {
+        "translated": "مترجم بالذكاء الاصطناعي",
+        "generated": "ملخص الذكاء الاصطناعي",
+        "verified": "موثق من المصدر"
+    },
     "disclaimer": "المعلومات مقدمة للأغراض التعليمية والتحليلية فقط. قد تحتوي ملخصات الذكاء الاصطناعي على أخطاء.",
-    "hero.title": "حرب إيران · استخبارات مباشرة",
-    "hero.subtitle": "بدون تحيز. موثق بالذكاء الاصطناعي. في الوقت الفعلي.",
-    "about.title": "عن IranWar.net",
-    "threat.level": "مستوى التهديد",
-    "threat.monitoring": "مراقبة",
-    "threat.elevated": "مرتفع",
-    "threat.high": "عالٍ",
-    "threat.critical": "حرج",
-    "threat.extreme": "أقصى"
+    "hero": {
+        "title": "حرب إيران · استخبارات مباشرة",
+        "subtitle": "بدون تحيز. موثق بالذكاء الاصطناعي. في الوقت الفعلي."
+    },
+    "about": {
+        "title": "عن IranWar.net"
+    },
+    "threat": {
+        "level": "مستوى التهديد",
+        "monitoring": "مراقبة",
+        "elevated": "مرتفع",
+        "high": "عالٍ",
+        "critical": "حرج",
+        "extreme": "أقصى"
+    }
 }
