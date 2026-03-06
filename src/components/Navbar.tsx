@@ -42,8 +42,8 @@ export function Navbar() {
                                         key={link.href}
                                         href={link.href}
                                         className={`inline-flex items-center px-4 py-2 mt-2 mb-2 rounded-md text-sm font-medium transition-colors ${isActive
-                                                ? 'bg-zinc-800 text-white'
-                                                : 'text-zinc-400 hover:text-zinc-200 hover:bg-zinc-800/50'
+                                            ? 'bg-zinc-800 text-white'
+                                            : 'text-zinc-400 hover:text-zinc-200 hover:bg-zinc-800/50'
                                             }`}
                                     >
                                         <Icon className="w-4 h-4 mr-2" />
@@ -56,6 +56,18 @@ export function Navbar() {
 
                     {/* Right side actions */}
                     <div className="flex items-center gap-4">
+                        <a
+                            href="https://ko-fi.com/S6S71VHUV9"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="hidden sm:block"
+                        >
+                            <img
+                                src="https://ko-fi.com/img/githubbutton_sm.svg"
+                                alt="Support me on Ko-fi"
+                                className="h-8"
+                            />
+                        </a>
                         <LanguageSwitcher />
 
                         {/* Mobile menu button */}

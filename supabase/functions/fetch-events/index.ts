@@ -43,7 +43,7 @@ serve(async (req) => {
         const newsData = await tavilyRes.json()
         const contextStr = newsData.results.map((r: any) => `Source: ${r.url}\nTitle: ${r.title}\nContent: ${r.content}\n`).join('\n---\n')
 
-        // 3. Process with Gemini 1.5 Flash
+        // 3. Process with Gemini 3 Flash
         const geminiKey = Deno.env.get('GEMINI_API_KEY')
         if (!geminiKey) throw new Error('GEMINI_API_KEY missing')
 
@@ -73,7 +73,7 @@ serve(async (req) => {
       ${contextStr}
     `
 
-        const geminiRes = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${geminiKey}`, {
+        const geminiRes = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=${geminiKey}`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({

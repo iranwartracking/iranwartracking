@@ -68,7 +68,7 @@ export function DonationBar() {
                 </div>
 
                 <a
-                    href="https://ko-fi.com/your-kofi-link"
+                    href="https://ko-fi.com/S6S71VHUV9"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-white px-3 py-1 rounded transition-colors"
