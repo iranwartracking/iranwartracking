@@ -55,7 +55,7 @@ export default function MapInner() {
         };
         fetchEvents();
 
-        const channel = supabase
+        const channel = supabase!
             .channel('public:map_events')
             .on('postgres_changes', { event: 'INSERT', schema: 'public', table: 'events' }, (payload) => {
                 setEvents((current) => [payload.new as WarEvent, ...current].slice(0, 200));

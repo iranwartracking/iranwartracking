@@ -16,7 +16,7 @@ export function DonationBar() {
 
         // 1. Fetch initial value
         const fetchTotal = async () => {
-            const { data, error } = await supabase
+            const { data, error } = await supabase!
                 .from('site_config')
                 .select('value')
                 .eq('key', 'daily_donations_total')
@@ -29,7 +29,7 @@ export function DonationBar() {
         fetchTotal();
 
         // 2. Subscribe to real-time updates
-        const channel = supabase
+        const channel = supabase!
             .channel('site_config_changes')
             .on(
                 'postgres_changes',
@@ -41,7 +41,7 @@ export function DonationBar() {
             .subscribe();
 
         return () => {
-            supabase.removeChannel(channel);
+            supabase!.removeChannel(channel);
         };
     }, []);
 

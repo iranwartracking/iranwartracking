@@ -35,7 +35,7 @@ export function LiveTicker() {
         fetchLatest();
 
         // 2. Subscribe to new events
-        const channel = supabase
+        const channel = supabase!
             .channel('public:events')
             .on(
                 'postgres_changes',

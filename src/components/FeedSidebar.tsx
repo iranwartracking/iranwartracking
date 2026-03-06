@@ -21,7 +21,7 @@ export function FeedSidebar() {
         fetchEvents(activeTab);
 
         // Initial load setup realtime subscription globally
-        const channel = supabase
+        const channel = supabase!
             .channel('public:events_feed')
             .on('postgres_changes', { event: 'INSERT', schema: 'public', table: 'events' }, (payload) => {
                 const newEvent = payload.new as WarEvent;
