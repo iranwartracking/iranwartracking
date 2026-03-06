@@ -3,7 +3,7 @@
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { ShieldAlert, Activity, MessageSquare, AlertTriangle, Info, Menu, X } from 'lucide-react';
+import { ShieldAlert, Activity, MessageSquare, AlertTriangle, Info, Menu, X, Heart } from 'lucide-react';
 import { useState } from 'react';
 import { LanguageSwitcher } from './LanguageSwitcher';
 
@@ -60,13 +60,10 @@ export function Navbar() {
                             href="https://ko-fi.com/S6S71VHUV9"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="hidden sm:block"
+                            className="bg-[#13C3FF] text-white px-4 py-1.5 rounded-full text-sm font-bold shadow-lg hover:bg-[#0da4d6] transition-all flex items-center gap-2 hover:scale-105 active:scale-95"
                         >
-                            <img
-                                src="https://ko-fi.com/img/githubbutton_sm.svg"
-                                alt="Support me on Ko-fi"
-                                className="h-8"
-                            />
+                            <Heart className="w-4 h-4 fill-white" />
+                            <span className="hidden sm:inline">Support</span>
                         </a>
                         <LanguageSwitcher />
 
